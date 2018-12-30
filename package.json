@@ -1,0 +1,29 @@
+{
+    "name": "melon2genie",
+    "version": "1.0.0",
+    "description": "Playlist migration tool for Genie from Melon",
+    "main": "index.js",
+    "repository": "https://github.com/iamchanii/melon2genie",
+    "author": "iamchnaii",
+    "license": "MIT",
+    "scripts": {
+        "start": "yarn babel-node --extensions '.ts' src/index.ts"
+    },
+    "dependencies": {
+        "@types/axios": "^0.14.0",
+        "@types/date-fns": "^2.6.0",
+        "@types/inquirer": "^0.0.43",
+        "@types/jsdom": "^12.2.1",
+        "axios": "^0.18.0",
+        "date-fns": "^1.30.1",
+        "inquirer": "^6.2.1",
+        "jsdom": "^13.1.0",
+        "typescript": "^3.2.2"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.2.2",
+        "@babel/node": "^7.2.2",
+        "@babel/preset-env": "^7.2.3",
+        "@babel/preset-typescript": "^7.1.0"
+    }
+}
